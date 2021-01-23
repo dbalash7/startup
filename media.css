@@ -1,0 +1,32 @@
+@media (max-width: 550px) {
+    .menu a {
+        margin: 0;
+        width: 100%;
+    }
+    .menu {
+        position: static;
+    }
+    .header {
+        margin-top: 0px;
+    }
+    .about {
+        padding: 0 15px;
+    }
+    .about .text img {
+        width: 100%;
+        float: none;
+margin-left: 0;
+    }
+    .team {
+        padding: 15px;
+    }
+    .card {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .option {
+        margin: 15px 0;
+        width: 100%;
+    }
+}

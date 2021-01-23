@@ -1,0 +1,193 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+}
+.menu {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+ top: 0;   
+ left: 0;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 45px;
+    padding: 9px 22px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+    
+}
+.menu a:hover {
+    background-color: lightgray;
+}
+.header .container {
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    padding: 300px 0px;
+}
+.header {
+    margin-top: 76px;
+    text-align: center;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .container a {
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 15px 35px;
+    background-color: white;
+    transition: 0.3s;
+}
+.header .container p {
+    margin: 30px;
+}
+.header .container a:hover {
+    background-color: lightgray;
+}
+
+h2 {
+    text-align: center;
+}
+.about .container  {
+
+}
+.about .text img {
+    width: 400px;
+float: right;
+margin-top: 0;
+margin-left: 30px;
+margin-bottom: 30px;
+}
+.team {
+    text-align: center;
+}
+.card  {
+display: inline-block;
+width: 400px;
+padding: 20px;
+box-shadow: 0 2px 5px gray ;
+margin: 20px;
+text-align: left;
+}
+.card .img-wrapper {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.card img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.card .caption {
+    color: lightgray;
+}
+.card a {   
+     color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #05465a;
+    transition: 0.3s;
+    padding: 15px 0;
+    text-align: center;
+}
+.buy {
+    background-color: gray;
+    width: 100%;
+    padding: 35px;
+    color: white;
+    text-align: center;
+}
+.option {
+    display: inline-block;
+    width: 500px;
+    background-color: white;
+    color: black;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.option h3 {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding: 25px 0;
+    font-size: 25px;
+    margin-bottom: 0;
+} 
+.option p {
+    padding: 20px 0;
+    border-bottom: 1px lightgray solid;
+    margin: 0;
+}
+.option .price {
+    color: gray;
+}
+.option .price span {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+.option-footer {
+    background-color: lightgray;
+    padding: 20px 0;
+}
+.btn {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display:inline-block;
+}
+.option.highlight h3 {
+padding: 45px 0;
+background-color: #05465a ;
+}
+.contacts {
+    background-color: lightgray;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.contacts .info {
+    text-align: left;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px;
+}
+.contacts .adress {
+    background-image: url(img/maps-and-flags.png);
+}
+.contacts .phone {
+    background-image: url(img/telephone.png);
+}
+.contacts .email {
+    background-image: url(img/email.png);
+    
+}
+.contacts input {
+    width: 100%;
+    margin-bottom: 7px;
+    padding: 5px 5px;
+    border-color: #9d9fa1;
+    border-radius: 3px;
+    border-style: solid;
+}
+
